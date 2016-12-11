@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Página principal</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_12.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/tms-0.4.x.js"></script>
+    <script>
+		$(document).ready(function(){				   	
+			$('.slider')._TMS({
+				show:0,
+				pauseOnHover:true,
+				prevBu:false,
+				nextBu:false,
+				playBu:false,
+				duration:1000,
+				preset:'fade',
+				pagination:true,
+				pagNums:false,
+				slideshow:7000,
+				numStatus:true,
+				banners:'fromRight',
+				waitBannerAnimation:false,
+				progressBar:false
+			})		
+		});
+	</script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+</head>
+<body>
+  <div class="main">
+  <!--==============================header=================================-->
+    <header>
+        <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+		<div class="form-search">
+            <form id="form-search" method="post">
+				    <input id="username" type="text" placeholder="Usuario" autofocus required>
+            </form>
+        </div>
+		<div class="form-login">
+            <form id="form-login" method="post">  
+					<input id="password" type="password" placeholder="Contraseña" required>
+            </form>
+        </div>
+		<div class="entrar">
+			<a href="#" class="entrar">Entrar</a>
+		</div>
+		<div class="submit">
+			<a href="registro.html" class="submit">Regístrate</a>
+		</div>
+        <div class="clear"></div>    
+        <nav class="box-shadow">
+            <div>
+                <ul class="menu">
+                    <li class="home-page current"><a href="index.html"><span></span></a></li>
+					<li><a href="registro.html">Regístrate</a></li>
+                    <li><a href="services.html">Conócenos</a></li>
+                    <li><a href="contacts.html">Contacto</a></li>
+                </ul>
+                <div class="social-icons">
+                    <span>Síguenos:</span>
+                    <a href="#" class="icon-3"></a>
+                    <a href="https://www.facebook.com/UPPachuca/" class="icon-2"></a>
+                    <a href="https://twitter.com/uppachuca" class="icon-1"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </nav>
+    </header>   
+  <!--==============================content================================-->
+    <section id="content"><div class="ic"></div>
+        <div id="slide" class="box-shadow">		
+            <div class="slider">
+                <ul class="items">
+                    <li><img src="images/slider-1.jpg" alt="" /><div class="banner">Facilitaremos el desarrollo médico-hospitalario&nbsp;</div></li>
+                    <li><img src="images/slider-2.jpg" alt="" /><div class="banner">Ofrecemos diferentes soluciones a un mismo problema&nbsp;</div></li>
+                    <li><img src="images/slider-3.jpg" alt="" /><div class="banner">Diseñamos soluciones prácticas&nbsp;</div></li>
+                </ul>
+            </div>	
+        </div>
+        <div class="container_12">
+          <div class="grid_12">
+            <div class="pad-0 border-1">
+                <h2 class="top-1 p0">Expediente Clínico Electrónico</h2>
+                <p class="p2">Además de ser un conjunto de información ordenada y detallada que recopila cronológicamente todos los aspectos relativos a la 
+				salud de un paciente y a la de su familia en un periodo determinado de su vida; es una herramienta que ofrece información sobre medicación, 
+				la historia médica del paciente, los protocolos clínicos y recomendaciones de estudios especíﬁcos; con el fin de generar un incremento en la 
+				eﬁcacia en el rastreo de antecedentes clínicos y el cuidado preventivo; y contribuye a reducir las complicaciones incluyendo los errores en la 
+				medicación.<br><br>
+				Con el avance de las ciencias y la tecnología, este concepto evoluciona, considerándose como un <i>“Sistema Informático que almacena los datos del
+				paciente en formato digital, que se almacenan e intercambian de manera segura y puede ser accesado por múltiples usuarios autorizados. Contiene
+				información retrospectiva, concurrente y prospectiva y su principal propósito es soportar de manera continua, eﬁciente, con calidad e integral
+				la atención y cuidados de salud”</i>.</p>
+            </div>
+            <div class="wrap block-1 pad-1">
+                <div>
+                    <h3>Trabajamos para ti</h3>
+                    <img src="images/page1-img1.jpg" alt="" class="img-border">
+                    <p>Estamos trabajando para que se beneficien clínicas, hospitales, médicos, pacientes y cualquier persona involucrada en el proceso de salud.</p>
+                    <a href="services.html" class="button">Más</a>
+                </div>
+                <div>
+                    <h3>Nuestra estrategia</h3>
+                    <img src="images/page1-img2.jpg" alt="" class="img-border">
+                    <p>Siempre al pendiente del medio ambiente y la economía, se genera un ahorro sustancial en papelería, ¡logrando salvar más árboles!</p>
+                </div>
+                <div class="last">
+                    <h3>Normas mexicanas</h3>
+                    <img src="images/page1-img3.jpg" alt="" class="img-border">
+                    <p>El Expediente Clínico Electrónico se encuentra estrechamente relacionado con la Norma Oficial Mexicana 040-SSA2-2004, en materia de información de salud, surge a partir de la NOM 168-SSA-1993, de Expediente Clínico.</p>
+                    <a href="services.html" class="button">Más</a>
+                </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="aside">
+            <div class="container_12">	
+                <div class="grid_12">
+                    <div class="pad-2 block-2 wrap">
+                        <div class="last">
+                            <h3 class="p3">Aviso de privacidad</h3>
+                            <p class="p4">De conformidad con lo dispuesto en la Ley Federal de Protección de Datos personales en Posesión de los Particulares, se compromete a tratar con total y absoluta confidencialidad toda información o datos personales sensibles que les sea proporcionada de forma indirecta y por ningún motivo lo compartirá con terceros.<br>Biomática cuenta con políticas y procedimientos que contemplan medidas de seguridad y controles para proteger los Datos Personales, especialmente los Datos Personales Sensibles. Por lo anterior, los datos son tratados y guardados de manera confidencial a través de medios tecnológicos y de procedimientos internos de protección.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>  
+    </section> 
+  </div>    
+<!--==============================footer=================================-->
+    <footer>
+		<p>Universidad Politécnica de Pachuca, Carretera Pachuca - Cd. Sahagún km 20 Ex-Hacienda de Santa Bárbara Zempoala Hidalgo, México. CP-43830 Tel 01 (771) 54 77 510</p>
+        <p>Copyright © 2016 Biomática</p>
+    </footer>	    
+</body>
+</html>
